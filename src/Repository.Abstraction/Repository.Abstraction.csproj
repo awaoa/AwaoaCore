@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Awaoa.Core.Repository</RootNamespace>
+    <AssemblyName>$(RootNamespace).Abstraction</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Awaoa</Authors>
+    <Copyright>©2019 Awaoa</Copyright>
+    <Product>Awaoa Core</Product>
+    <Description>The abstract of repository definitions of Awaoa Core</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/awaoa/AwaoaCore</PackageProjectUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/47768629</PackageIconUrl>
+    <RepositoryUrl>https://github.com/awaoa/AwaoaCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entity.Abstraction\Entity.Abstraction.csproj" />
+  </ItemGroup>
+</Project>
